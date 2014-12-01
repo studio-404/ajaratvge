@@ -1,0 +1,20 @@
+*{ margin:0; padding:0; border:0; outline:0; }
+.prefix_404_header{ width:100%; height: 170px; background-color: #2e2e2e; position: relative; }
+.prefix_404_header::before{ content:" "; margin: 0; padding: 0; width: 100%; height: 170px; display: block; background-image: url('../img/topbg.png');
+background-repeat: no-repeat;
+background-size: cover !important;
+position: absolute; }
+.prefix_404_top{ width:100%; height:28px; border-bottom: solid 1px #1f1f1f; position: relative; }
+.prefix_404_top::before{ content: " "; width:100%; height:1px; position: absolute; bottom: 0px; background-color:#323232;  }
+.prefix_404_row{ margin: 0 auto; width:960px; height:28px; }
+.prefix_40_topnav{ width: 100%; height:28px; }
+.prefix_40_topnav ul{ width: 100%; height:28px; list-style-type: none; }
+.prefix_40_topnav ul li{ line-height: 28px; padding: 0; float: left; background-image: url('../img/line.png'); background-repeat: no-repeat; background-position: right center; }
+.prefix_40_topnav ul li:last-child{ background-image: none !important; }
+.prefix_40_topnav ul li a{ padding: 10px; line-height: 28px; font-size: 12px; font-family: 'arial'; color:#5e5e5e; text-decoration: none; }
+.prefix_40_topnav ul li a:hover{ text-decoration: underline; }
+
+@media(max-width:480px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
