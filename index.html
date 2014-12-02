@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="dist/css/font-awesome.min.css">
 	<link rel="stylesheet" href="dist/css/en.css">
 	<link rel="stylesheet" href="dist/css/general.css">
+	
 </head>
 <body>
 
@@ -68,7 +69,7 @@
 	</div>
 	<div class="container prefix-404-navigation">
 		<div class="row">
-			<nav class="col-lg-10 col-md-6 col-sm-12 col-sx-12 prefix-404-navi">
+			<nav class="col-lg-11 col-md-6 col-sm-12 col-sx-12 prefix-404-navi">
 				<ul class="selectdropdown">
 					<li><a href="" class="active">Home</a></li>
 					<li><a href="">News</a></li>
@@ -78,7 +79,7 @@
 					<li><a href="">Contact</a></li>
 				</ul><div class="clearer"></div>
 			</nav>
-			<div class="col-lg-2 prefix-404-language">
+			<div class="col-lg-1 prefix-404-language">
 				<div class="en active" data-url="/en"></div>
 				<div class="ge" data-url="/ge"></div>
 			</div><div class="clearer"></div>
@@ -117,15 +118,14 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 prefix-404-rss"><a href="">All news</a></div>
 			
 			<div class="col-lg-9">
-			
-			<div class="slider-prev"></div>
-			<div class="slider-next"></div>
-			
+				<div class="slider-prev" id="slider-prev"></div>
+				<div class="slider-next" id="slider-next"></div>
+
 			<div class="slider-image-container">
-				<div class="image-array" style="width:1200px;">
-					<img src="dist/slide-img/1.png" width="400" height="370" alt="" />
-					<img src="dist/slide-img/1.png" width="400" height="370" alt="" />
-					<img src="dist/slide-img/1.png" width="400" height="370" alt="" />
+				<div class="image-array owl-carousel owl-theme" id="owl-demo">
+					<div class="item"><img src="dist/slide-img/1.png" width="400" height="370" alt="" /></div>
+					<div class="item"><img src="dist/slide-img/1.png" width="400" height="370" alt="" /></div>
+					<div class="item"><img src="dist/slide-img/1.png" width="400" height="370" alt="" /></div>
 				</div>				
 			</div>
 
@@ -161,15 +161,15 @@
 			<div class="col-lg-3">
 
 				<div class="slider-right-images">
-					<div class="img active">
+					<div class="img active" data-show="1">
 						<img src="dist/slide-img/left-1.png" width="100%" height="115" alt="" />
 						<div class="span"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</div>
 					</div>
-					<div class="img">
+					<div class="img" data-show="2">
 						<img src="dist/slide-img/left-1.png" width="100%" height="115" alt="" />
 						<div class="span"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</div>
 					</div>
-					<div class="img">
+					<div class="img" data-show="3">
 						<img src="dist/slide-img/left-1.png" width="100%" height="115" alt="" />
 						<div class="span"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</div>
 					</div>
@@ -180,6 +180,83 @@
 		</div>
 	</div>
 </section>
+
+<main class="prefix-404-content">
+	<section class="container">
+		<div class="row">
+			<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+				<div class="prefix-program-title">
+					Programms
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 prefix-404-prbox">
+						<a href=""><img src="dist/slide-img/prog-1.png" width="100%" height="auto" alt="prog" /></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 prefix-404-progbig">
+				<a href="">
+					<img src="dist/slide-img/prog-big.png" width="100%" alt="" />
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="prefix-404-socialnets">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+					<div class="facebookshare">
+						<h4>Find us on Facebook</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+					<div class="youtubesubscribe">
+						<h4>Subscribe us on Youtube</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<footer class="prefix-404-footer">
+	<div class="container prefix-404-broadcasting">
+		<div class="row prefix-404-center">
+			<div class="col-lg-12 prefix-404-brotext">
+				Broadcasting: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>TurkSat 2A/3A   42.o E     Frequency (MHz)  11 472     Polarization  H     Symbol Rate  23 450     FEC   5/6</span>
+			</div>
+		</div>
+	</div>
+	<div class="container prefix-404-bottom">
+		<div class="row prefix-404-center">
+			<div class="col-lg-12">
+				bottom
+			</div>
+		</div>
+	</div>
+</footer>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="dist/js/jquery-1.11.1.min.js"></script>
