@@ -1,9 +1,11 @@
 *{ margin:0; padding:0; border:0; outline:0; }
+ul{ margin:0; padding:0; border:0; outline:0; list-style-type: none; }
 .prefix-404-header{ width:100%; height: 170px; background-color: #2e2e2e; position: relative; }
 .prefix-404-header::before{ content:" "; margin: 0; padding: 0; width: 100%; height: 170px; display: block; background-image: url('../img/topbg.png');
 background-repeat: no-repeat;
-background-size: cover !important;
+background-position: center top;
 position: absolute; }
+.prefix-404-center{ margin: 0 auto; width: 960px;  }
 .prefix-404-top{ width:100%; height:28px; border-bottom: solid 1px #1f1f1f; position: relative; }
 .prefix-404-top::before{ content: " "; width:100%; height:1px; position: absolute; bottom: 0px; background-color:#323232;  }
 .prefix-404-row{ margin: 0 auto; width:960px; height:28px; overflow: hidden; }
@@ -17,22 +19,22 @@ position: absolute; }
 .prefix-404-logobox .row{  margin: 0 auto; width:960px; height: 92px; }
 .prefix-404-logo{ margin:15px 0 0 0; width:201px; height:55px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: 0px 0px; }
 .prefix-404-logo a{ width:201px; height:55px; display: block; text-decoration: none; text-indent: -9999px; }
-.prefix-404-icons nav ul{ margin: 35px 0 0 50px; position: absolute; width: 420px; list-style-type: none; }
-.prefix-404-icons nav ul li{ padding:0 35px; float: left; position: relative; }
+.prefix-404-icons nav ul{ margin: 35px 0 0 35px; position: absolute; width: 420px; list-style-type: none; }
+.prefix-404-icons nav ul li{ padding:0 30px 0 35px; float: left; position: relative; }
 .prefix-404-icons nav ul li a{ padding: 2px 1px; width:100%; display: block; position: relative; font-size: 12px; color: #7d7d7d; font-family: 'arial'; }
 .prefix-404-icons nav ul li .prefix-404-radio{ width: 27px; height: 18px; position: absolute; left:0px; top:0px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -59px;  }
 .prefix-404-icons nav ul li .prefix-404-broadcasting{ width: 27px; height: 26px; position: absolute; left:0px; top:-6px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -80px;  }
 .prefix-404-icons nav ul li .prefix-404-live{ width: 12px; height: 11px; position: absolute; left:10px; top:5px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -113px;  }
-.prefix-404-icons nav ul li:last-child{ line-height: 16px; }
+.prefix-404-icons nav ul li:last-child{ line-height: 16px; margin-left: -15px; }
 .prefix-404-icons nav ul li:last-child a{ font-size: 22px; color: #b71b15; }
 .prefix-404-search form{ margin:25px 0 0 0; height: 38px; border:solid 1px #3f3f3f; position: relative; float: right;}
 .prefix-404-search form input[type="text"]{ width: 157px; height: 38px; line-height: 38px; padding: 0 30px 0 10px; background-color: #3c3c3c; float: left; color: #636363; }
-.prefix-404-search form input[type="submit"]{ width: 23px; height: 21px; position: absolute; right:80px; top:8px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -125px; cursor: pointer; }
+.prefix-404-search form input[type="submit"]{ border:0; background-color: #3c3c3c; width: 23px; height: 21px; position: absolute; right:80px; top:8px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -125px; cursor: pointer; }
 .prefix-404-search form .facebook{ width: 36.5px; height: 38px; background-color: #353535; float: left; cursor: pointer; position: relative;  }
 .prefix-404-search form .youtube{ width: 36.5px; height: 38px; background-color: #353535; float: left; cursor: pointer; position: relative; }
 .prefix-404-search form .facebook::after{ content: " "; margin: 0 auto; width: 23px; height: 23px; left:6px; top:7.5px; position: absolute; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -169px; }
 .prefix-404-search form .youtube::after{ content: " "; margin: 0 auto; width: 23px; height: 23px; left:6px; top:7.5px; position: absolute; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -146px; }
-.prefix-404-navigation{ width: 100%; height: 45px; background-color: #353535; border-bottom: solid 4px #3399cc; position: relative; bottom: -5px; }
+.prefix-404-navigation{ width: 100%; height: 45px; background-color: #353535; border-bottom: solid 4px #398db7; position: relative; bottom: -5px; }
 .prefix-404-navigation .row{ margin: 0 auto; width: 960px;  }
 .prefix-404-navigation .row nav ul{ list-style-type: none; }
 .prefix-404-navigation .row nav ul li{ float: left; position: relative; }
@@ -40,7 +42,23 @@ position: absolute; }
 .prefix-404-navigation .row nav ul li a:hover{ text-decoration: underline; }
 .prefix-404-navigation .row nav ul li::after{ content: " "; width:2px; height: 40px; position: absolute; top:0px; right: 0px; background-image:url('../img/navline.png'); background-repeat: no-repeat; background-position: right center;  }
 .prefix-404-navigation .row nav ul li:last-child::after{ background-image: none !important; }
+.prefix-404-navigation .row nav ul li .active{ background-color: #398db7 !important; color: #ffffff !important; }
+
+.prefix-404-submenu .container .row nav ul li{ padding: 0 10px; line-height: 37px; float: left; position: relative; }
+.prefix-404-submenu .container .row nav ul li::after{ content: " "; width: 1px; height: 8px; background-image: url('../img/subnavline.png'); position: absolute; right: 0px; top: 14.5px; }
+.prefix-404-submenu .container .row nav ul li:last-child::after{ background-image: none !important; }
+.prefix-404-submenu .container .row nav ul li a{ font-size: 13px; font-family: 'bpg_mrgvlovani_caps'; color: #ffffff; text-decoration: none; -webkit-font-smoothing: antialiased; }
+.prefix-404-submenu .container .row nav ul li a:hover{ color: #081318; }
+.prefix-404-submenu .container .row nav ul li .active{ color: #081318; }
+
 .prefix-404-navigation .row select{ margin:2.5px 0; padding: 0 10px; width:100%; height: 35px; background-color: #2e2e2e; color: #dadbde;  }
+.prefix-404-language div{ float:right; width:22px; height: 16px; }
+.prefix-404-language .ge{ margin:13px 0 0 10px; width:22px; height:16px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -40px -60px; float:right; cursor: pointer; opacity: 0.3; filter: alpha(opacity=30); }
+.prefix-404-language .en{ margin:13px 0 0 10px; width:22px; height:16px; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -64px -60px; float: right; cursor: pointer; opacity: 0.3; filter: alpha(opacity=30); }
+.prefix-404-language .active{ opacity: 1; filter: alpha(opacity=100); }
+.prefix-404-language div:hover{ opacity: 1; filter: alpha(opacity=100); }
+.prefix-404-submenu{ width: 100%; height: 37px; background-color: #398db7; }
+
 
 @media(max-width:480px){
 
@@ -55,7 +73,7 @@ position: absolute; }
 	.prefix-404-logobox{ margin: 0 5% !important; width: 90% !important; }	
 	.prefix-404-navigation .row{ margin: 0 5% !important; width: 90% !important; }
 }
-@media(max-width:1200px){ 
+@media(max-width:1199px){ 
 	.prefix-404-icons{ display: none; }
 	.prefix-404-logobox .row{ width: 100% !important; }
 	.prefix-404-search form input[type="text"]{ width: 300px !important; }

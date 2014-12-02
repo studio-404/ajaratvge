@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/arial-webfont.eot');
+    src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial-webfont.woff2') format('woff2'),
+         url('../fonts/arial-webfont.woff') format('woff'),
+         url('../fonts/arial-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bpg_mrgvlovani_caps';
+    src: url('../fonts/bpg_mrgvlovani_caps_2010-webfont.eot');
+    src: url('../fonts/bpg_mrgvlovani_caps_2010-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.woff2') format('woff2'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.woff') format('woff'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
