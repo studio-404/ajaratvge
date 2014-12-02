@@ -36,9 +36,9 @@ position: absolute; }
 .prefix-404-navigation .row{ margin: 0 auto; width: 960px;  }
 .prefix-404-navigation .row nav ul{ list-style-type: none; }
 .prefix-404-navigation .row nav ul li{ float: left; position: relative; }
-.prefix-404-navigation .row nav ul li a{ padding: 0 20px; line-height: 23px; text-decoration: none; display: block; color: #dadbde; font-size: 16px; font-family: 'arial'; text-transform: uppercase; font-weight: bold; }
+.prefix-404-navigation .row nav ul li a{ padding: 0 20px; line-height: 45px; text-decoration: none; display: block; color: #dadbde; font-size: 16px; font-family: 'arial'; text-transform: uppercase; font-weight: bold; }
 .prefix-404-navigation .row nav ul li a:hover{ text-decoration: underline; }
-.prefix-404-navigation .row nav ul li::after{ content: " "; width:2px; height: 40px; position: absolute; top:-10px; right: 0px; background-image:url('../img/navline.png'); background-repeat: no-repeat; background-position: right center;  }
+.prefix-404-navigation .row nav ul li::after{ content: " "; width:2px; height: 40px; position: absolute; top:0px; right: 0px; background-image:url('../img/navline.png'); background-repeat: no-repeat; background-position: right center;  }
 .prefix-404-navigation .row nav ul li:last-child::after{ background-image: none !important; }
 @media(max-width:480px){
 
@@ -50,10 +50,13 @@ position: absolute; }
 	.prefix-404-row{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-topnav{ display: none !important; }
 	.prefix-404-date{ width:100% !important; text-align: left !important }
-	.prefix-404-logobox{ margin: 0 5% !important; width: 90% !important; }
+	.prefix-404-logobox{ margin: 0 5% !important; width: 90% !important; }	
+	.prefix-404-navigation .row{ margin: 0 5% !important; width: 90% !important; }
 }
 @media(max-width:1200px){ 
 	.prefix-404-icons{ display: none; }
 	.prefix-404-logobox .row{ width: 100% !important; }
 	.prefix-404-search form input[type="text"]{ width: 300px !important; }
+	.prefix-404-language{ display: none; }
+	.prefix-404-navigation .row select{ margin:2.5px 0; padding: 0 10px; width:100%; height: 35px; background-color: #2e2e2e; color: #dadbde;  }
 }
