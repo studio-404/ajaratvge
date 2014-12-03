@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/arial-webfont.eot');
+    src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial-webfont.woff2') format('woff2'),
+         url('../fonts/arial-webfont.woff') format('woff'),
+         url('../fonts/arial-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bpg_mrgvlovani_caps';
+    src: url('../fonts/bpg_mrgvlovani_caps_2010-webfont.eot');
+    src: url('../fonts/bpg_mrgvlovani_caps_2010-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.woff2') format('woff2'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.woff') format('woff'),
+         url('../fonts/bpg_mrgvlovani_caps_2010-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bpg_glahoregular';
+    src: url('../fonts/bpg_glaho-webfont.eot');
+    src: url('../fonts/bpg_glaho-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpg_glaho-webfont.woff2') format('woff2'),
+         url('../fonts/bpg_glaho-webfont.woff') format('woff'),
+         url('../fonts/bpg_glaho-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bpg_square_mtavruliregular';
+    src: url('../fonts/bpg_square_mtavruli_2009-webfont.eot');
+    src: url('../fonts/bpg_square_mtavruli_2009-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bpg_square_mtavruli_2009-webfont.woff2') format('woff2'),
+         url('../fonts/bpg_square_mtavruli_2009-webfont.woff') format('woff'),
+         url('../fonts/bpg_square_mtavruli_2009-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.prefix-404-topnav nav ul li a{ padding: 10px; line-height: 28px; font-size: 12px; font-family: 'bpg_glahoregular'; color:#5e5e5e; text-decoration: none; }
+.prefix-404-date{ line-height: 28px; font-size: 12px; font-family: 'bpg_glahoregular'; color:#5e5e5e; text-align: right; }
+.prefix-404-icons nav ul li a{ padding: 2px 1px; width:100%; display: block; position: relative; font-size: 12px; color: #7d7d7d; font-family: 'bpg_glahoregular'; }
+.prefix-404-search form input[type="text"]{ font-family: 'bpg_glahoregular'; }
+.prefix-404-icons nav ul li:last-child a{ font-size: 22px; color: #b71b15; }
+.prefix-404-navigation .row nav ul li a{ padding: 0 20px; line-height: 45px; text-decoration: none; display: block; color: #dadbde; font-size: 15px; font-family: 'bpg_square_mtavruliregular'; text-transform: uppercase; font-weight: bold; }
+.prefix-404-submenu .container .row nav ul li a{ font-size: 13px; font-family: 'bpg_glahoregular'; color: #ffffff; text-decoration: none; font-weight: 400; }
+.prefix-404-slider .container .row .prefix-404-slidetitle{ font-size: 28px; font-family: 'bpg_square_mtavruliregular'; font-weight: bold; text-align: left; line-height: 68px; color: #3e93bd; text-transform: uppercase; }
+.prefix-404-slider .container .row .prefix-404-rss a{ padding-right: 25px; font-size: 14px; font-family: 'bpg_glahoregular'; font-weight: bold; line-height: 68px; color: #555555; text-transform: uppercase; text-decoration: none; }
+.slider-text .text-array .text-box .text h3{ margin: 0px; padding: 20px 35px 20px 20px; font-size:16px; font-family: 'bpg_square_mtavruliregular'; font-weight: bold; text-align: left; color: #ffffff; }
+.slider-text .text-array .text-box .text .span{ margin: 0px; padding:0 35px 20px 20px; font-size:13px; font-family: 'bpg_glahoregular'; text-align: left; color: #ffffff; }
+.slider-right-images .img .span{ font-family: 'bpg_glahoregular'; font-size: 12px; }
+.prefix-program-title{ line-height: 90px; font-size: 28px; font-family: 'bpg_square_mtavruliregular'; text-align: left; color: #353535; text-transform: uppercase; font-weight: bold; background-image: url('../img/prog-line.png'); background-repeat: no-repeat; background-position: left 75px; position: relative; overflow: hidden; }
+.prefix-404-socialnets .container .row h4{ padding: 0 10px; font-size: 14px; font-weight: bold; font-family: 'arial'; text-align: left; color: #000000; }
+.prefix-404-brotext{ padding-left: 60px; line-height: 50px; font-size: 18px; font-family: 'arial'; font-weight: bold; color: #e9eaec; }
+.prefix-404-brotext span{ font-size: 13px; font-family: 'arial'; font-weight: bold; color: #e9eaec; letter-spacing: 1px; }
+.prefix-404-bottom .row nav ul li a{ float: left; font-size: 14px; font-weight: bold; font-family: 'bpg_square_mtavruliregular'; color: #9b9ea4; text-transform: uppercase; }
+.prefix-404-copyright{ text-align: left; line-height: 40px; font-size: 12px; font-family: 'arial'; color: #848484; }
+.prefix-404-created{ text-align: right; line-height: 40px; font-size: 12px; font-family: 'arial'; color: #848484; }
