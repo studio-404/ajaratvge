@@ -113,8 +113,10 @@ position: absolute; }
 .prefix-404-facebookbot::after{ content: " "; margin: 0 auto; width: 23px; height: 23px; left:6px; top:7.5px; position: absolute; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -2px -169px; }
 .prefix-404-youtubebot{ margin-right: 10px; width: 40px; height: 38px; cursor: pointer; float: right; position: relative; }
 .prefix-404-youtubebot::after{ content: " "; margin: 0 auto; width: 51px; height: 21px; left:0; top:10px; position: absolute; background-image: url('../img/sprite.png'); background-repeat: no-repeat; background-position: -40px -156px; }
-
 .prefix-404-created a{ color: #5da33d; }
+.prefix-404-longtext{ margin:0 0 40px 0; }
+
+.prefix-container-text{ position: relative; }
 @media(max-width:480px){
 
 }
@@ -149,4 +151,5 @@ position: absolute; }
 	.prefix-404-hideit{ display: none; }
 	.prefix-404-copyright{ line-height: 80px; }
 	.prefix-404-created{ line-height: 80px; }
+	.prefix-404-rightside{ display: none }
 }

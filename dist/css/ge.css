@@ -65,3 +65,4 @@
 .prefix-404-bottom .row nav ul li a{ float: left; font-size: 14px; font-weight: bold; font-family: 'bpg_square_mtavruliregular'; color: #9b9ea4; text-transform: uppercase; }
 .prefix-404-copyright{ text-align: left; line-height: 40px; font-size: 12px; font-family: 'arial'; color: #848484; }
 .prefix-404-created{ text-align: right; line-height: 40px; font-size: 12px; font-family: 'arial'; color: #848484; }
+.prefix-404-text-title{ padding:15px 0px; line-height: 30px; font-size: 19px; font-family: 'arial'; text-align: left; color: #363636; text-transform: uppercase; font-weight: bold; background-image: url('../img/prog-line.png'); background-repeat: no-repeat; background-position: left bottom; position: relative; overflow: hidden; }
