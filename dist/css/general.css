@@ -45,6 +45,7 @@ position: absolute; }
 .prefix-404-navigation .row nav ul li::after{ content: " "; width:2px; height: 45px; position: absolute; top:0px; right: 0px; background-image:url('../img/navline.png'); background-repeat: no-repeat; background-position: right center; background-size: 2px 45px;  }
 .prefix-404-navigation .row nav ul li:last-child::after{ background-image: none !important; }
 .prefix-404-navigation .row nav ul li .active{ background-color: #398db7 !important; color: #ffffff !important; }
+.prefix-404-navigation .row nav ul li:hover a{ background-color: #398db7 !important; color: #ffffff !important; text-decoration: none; }
 .prefix-404-navigation .row nav ul li .active <li::after{ background-image: none !important; }
 
 .prefix-404-submenu .container .row nav ul li{ padding: 0 10px; line-height: 37px; float: left; position: relative; }
@@ -92,7 +93,6 @@ position: absolute; }
 .prefix-404-content{ width: 100%; background-color: #ebf1f6; }
 .prefix-404-content .container{ margin:0 auto; width: 960px; }
 .prefix-404-content .container .row .prefix-404-prbox{ margin: 10px 0px; }
-
 .prefix-program-title::after{ content: " "; background-image: url('../img/prog-logo.png'); width: 115px; height: 99px; position: absolute; top: -10px; left: 180px;  }
 .prefix-404-progbig a{ text-decoration: none; display: block; }
 .prefix-404-prbox a{ text-decoration: none; display: block; }
@@ -120,6 +120,9 @@ position: absolute; }
 .prefix-404-topnews article:last-child{ border-bottom: none; }
 
 .prefix-container-text{ position: relative; }
+.prefix-404-programme-container{ padding:0 0 20px 0 !important; }
+.prefix-404-programsection .row .prefix-404-paintline{ margin: 10px 15px; width:calc(100% - 30px); width: -webkit-calc(100% - 30px); width:-moz-calc(100% - 30px); height: 1px; background-image: url('../img/bline.png'); background-position: bottom center; background-repeat: repeat-x; }
+
 @media(max-width:480px){
 
 }
@@ -140,6 +143,8 @@ position: absolute; }
 	.prefix-404-content .container{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-brorow{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-bottomrow{ margin: 0 5% !important; width: 90% !important; }
+	.prefix-404-texturebox{ margin: 0 5% !important; width: 90% !important; }
+	.prefix-404-programsection{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-center{ width: auto !important; }
 	.prefix-404-created{ text-align: left !important }
 }
