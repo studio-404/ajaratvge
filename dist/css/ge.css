@@ -81,5 +81,5 @@
 .prefix-404-topnews article .p{ margin:0; padding:0 10px 10px 10px; line-height: 16px; color:#666666; font-size: 13px; text-align: left; font-family: 'bpg_glahoregular'; font-weight: bold; }
 .prefix-404-topnews{ margin:0; padding:0; background-color: #e3ecf3;}
 
-.prefix-programs-title{ line-height: 38px; font-size: 18px; font-family: 'arial'; text-align: left; color: #398db7; text-transform: uppercase; font-weight: bold; background-image: url('../img/prog-line.png'); background-repeat: no-repeat; background-position: left 35px; position: relative; overflow: hidden; }
-.prefix-404-prbox .prefix-404-progtitle{ margin: 0; padding: 10px 5px; background-color: #ffffff; color: #409bc8; line-height: 14px; font-size: 14px; text-align: center; font-family: 'arial'; text-transform: uppercase; font-weight: bold; }
+.prefix-programs-title{ line-height: 38px; font-size: 18px; font-family: 'bpg_square_mtavruliregular'; text-align: left; color: #398db7; text-transform: uppercase; font-weight: bold; background-image: url('../img/prog-line.png'); background-repeat: no-repeat; background-position: left 35px; position: relative; overflow: hidden; }
+.prefix-404-prbox .prefix-404-progtitle{ margin: 0; padding: 0 5px; background-color: #ffffff; color: #409bc8; height: 35px; line-height: 35px; font-size: 14px; text-align: center; font-family: 'bpg_glahoregular'; text-transform: uppercase; font-weight: bold; overflow: hidden; }
