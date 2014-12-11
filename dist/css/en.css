@@ -61,7 +61,6 @@
 .prefix-404-mainnewstext h3 a{ color: #363636; font-size: 22px; font-family: 'arial'; text-decoration: none; }
 .prefix-404-mainnewstext h3 a:hover{ text-decoration: underline; }
 .prefix-404-mainnewstext .span{ margin: 0; padding: 20px 0 0 0; font-family: 'arial'; font-size: 14px; font-weight: lighter; }
-
 .prevCal a{ width: 31px; height: 32px; display: block; line-height: 32px; font-size: 14px; font-family: 'arial'; color: white; text-decoration: none; }
 .nextCal a{ width: 31px; height: 32px; display: block; line-height: 32px; font-size: 14px; font-family: 'arial'; color: white; text-decoration: none; }
 .monthCal{ padding:7px 0 0 0; float: left; width: calc(100% - 62px); width: -webkit-calc(100% - 62px); width:-moz-calc(100% - 62px); text-align: center; font-family: 'arial'; font-size: 14px; color: white; font-weight: bold; }
@@ -74,3 +73,9 @@
 .prefix-404-allnews article header h1 a{ text-align: left; font-size: 14px; color: #353535; font-family: 'arial'; font-weight: bold; }
 .prefix-404-allnews article .p{ margin: 0; padding: 5px 20px 0 20px; width:calc(100% - 140px); width: -webkit-calc(100% - 140px); width:-moz-calc(100% - 140px); float: left; font-size: 13px; color: #444444;}
 .prefix-404-pagination nav ul li a{ margin: 0; padding: 0 10px; border:0; text-decoration: none; color: #717171; font-size: 12px; font-family: 'arial'; line-height: 30px; display: block; }
+
+/*tv proggrame*/
+.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li a h4{ margin: 0; padding:0; border:0; font-size: 18px; font-family: 'arial'; color: #f4f6fa; text-transform: uppercase;  }
+.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li a i{ margin: 0; padding:0; border:0; font-size: 14px; font-family: 'arial'; color: #dfdfdf;  }
+.prefix-404-tvprogramme-main .container .row .prefix-404-timatable ul li .time{ margin: 0; padding: 0; width:100px; height: 50px; line-height: 50px; background-color: #333333; font-family: 'arial'; font-size: 30px; color: #ebf1f6; float: left; text-align: center; }
+.prefix-404-tvprogramme-main .container .row .prefix-404-timatable ul li .prname{ margin: 0; padding: 0 10px; float: left; font-family: 'arial'; font-size: 26px; color: #333333; line-height: 50px; text-align:left; }

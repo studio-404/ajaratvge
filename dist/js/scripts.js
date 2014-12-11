@@ -43,3 +43,8 @@ $(window).resize(resizeFn());
 $(document).ready(function(){
     $(window).trigger('resize');
 });
+
+$(".prefix-404-language div").click(function(){
+	var u = $(this).data("url");
+	location.href=u;  
+});
