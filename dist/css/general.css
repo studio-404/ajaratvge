@@ -166,7 +166,6 @@ position: absolute; }
 .prefix-404-tvprogramme-main .container{ width: 100%; margin:95px 0 0 0; background-color: #ebf1f6; min-height: 150px; }
 .prefix-404-tvprogramme-main .container .row{ margin: 0 auto; width: 960px; }
 .prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms{ margin:-60px 0 0 0; padding: 0; background-color: #398db7; height: 60px; }
-
 .prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider{ margin: 0; padding:0; height: 60px; overflow: hidden; float: left; }
 .prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul{ margin: 0; padding: 0; background-color: #000;  }
 .prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li{ margin: 0; padding: 0; width: 137.1px; height: 60px; float: left; text-align: center; }
@@ -211,11 +210,17 @@ position: absolute; }
 	.prefix-404-bottomrow{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-texturebox{ margin: 0 5% !important; width: 90% !important; }
 	.prefix-404-programsection{ margin: 0 5% !important; width: 90% !important; }
+	
 	.prefix-404-center{ width: auto !important; }
 	.prefix-404-created{ text-align: left !important }
 	.prefix-404-mainnews{ display: none; }
 	.prefix-404-newstotal{ width: 100% !important; }
 	.prefix-404-newstotal{ margin: 20px 0 0 0 !important; }
+	/*
+	## tv programe
+	*/
+	.prefix-404-tvprogramme-main .container .row{ margin: 0 5% !important; width: 90% !important; }
+
 }
 @media(max-width:1199px){ 
 	.prefix-404-icons{ display: none; }
@@ -232,4 +237,18 @@ position: absolute; }
 	.prefix-404-rightside{ display: none }
 	.prefix-404-bglogo{ display: none; }
 	.prefix-404-mainnewstext{ width: calc(100% - 380px); width: -webkit-calc(100% - 380px); width:-moz-calc(100% - 380px); }
+	/*
+	## tv programmes
+	*/
+	.prefix-404-tvprograms{ margin: 0px !important; }
+	.prefix-404-tvprogramme-main .container{ margin: 20px auto !important; }
+	.progSlider{ width:100% !important; height: auto !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms{ height: auto !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li{ width: 100% !important; height: 25px !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li a{ padding:5px 0 !important; width: 100% !important; height: 25px !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li a h4{ width: 100% !important; height: 25px !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li a i{ display: none !important; }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li:last-child{ width: 100% !important; float: left !important }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li:last-child a{ width: 100% !important; float: left !important }
+	.prefix-404-tvprogramme-main .container .row .prefix-404-tvprograms .progSlider ul li:last-child a h4{ width: 100% !important; float: left !important }
 }
